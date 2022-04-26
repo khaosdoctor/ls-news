@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Aller';
+  src: url(./assets/fonts/AllerDisplay.ttf);
+}
+
+/* GLOBAL RULES */
+:root {
+  --default-bg: #000021;
+  --default-green: #46bb8b;
+  --default-blue: #197bc0;
+  --default-red: #ed1c24;
+  --default-yellow: #ffcc03;
+  --body-font: 'Ubuntu';
+  --alter-font: 'Quantico';
+  --title-font: 'Aller';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font), sans-serif;
+  color: white;
+}
+
+/* RESET */
+body, html {
+  height: 100%;
+  background-color: var(--default-bg);
+}
+
+/* HELPERS */
+.link-text {
+  font-family: var(--alter-font), var(--body-font), sans-serif;
+}
+
+.title-text {
+  font-family: var(--title-font), var(--body-font), sans-serif;
+}
+
+/* CONTENT */
+
+#signup {
+  height: 100vh;
+  background-image: url(assets/img/cover_scale\,w_1366.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo-wrapper {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.9);
+}
+
+.logo-wrapper .logo {
+  background-color: rgba(0,0,33,0.8);
+  margin: 0 auto;
+  line-height: 3.5em;
+  height: 4em;
+}
+
+.logo-wrapper span {
+  font-family: var(--alter-font);
+}
+
+.logo-wrapper>div.logo .symbol::before {
+  content: "> ";
+  color: var(--default-red);
+  font-size: 3.4em;
+}
+
+.logo-wrapper>div.logo .carrier::before {
+  content: "_";
+  color: var(--default-blue);
+}
+
+.logo-wrapper>div.logo>.carrier,.text {
+  font-size: 3em;
+}
+
+footer {
+  background-color: var(--default-bg);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+footer span {
+  margin: 10px;
+}
+
+a.blog-link {
+  text-align: right;
+  margin: 10px;
+}
+
+a.blog-link img {
+  height: 40px;
+}
+
+
+/* MEDIA */
+@media only screen and (min-width: 200px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_200.jpg);
+  }
+
+  .logo-wrapper>div.logo .symbol::before {
+    font-size: 1.2em;
+  }
+
+  .logo-wrapper>div.logo>.carrier,.text {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_360.jpg);
+  }
+
+  .logo-wrapper>div.logo .symbol::before {
+    font-size: 1.4em;
+  }
+
+  .logo-wrapper>div.logo>.carrier,.text {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_375.jpg);
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_414.jpg);
+  }
+
+  .logo-wrapper>div.logo .symbol::before {
+    font-size: 2.4em;
+  }
+
+  .logo-wrapper>div.logo>.carrier,.text {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_1366.jpg);
+  }
+  .logo-wrapper>div.logo .symbol::before {
+    font-size: 3em;
+  }
+
+  .logo-wrapper>div.logo>.carrier,.text {
+    font-size: 2.6em;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_1536.jpg);
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_1920.jpg);
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_3840.jpg);
+  }
+}
+
+@media only screen and (min-width: 3841px) {
+  #signup {
+    background-image: url(assets/img/cover_scale\,w_3841.jpg);
+  }
+}
+
+/* @2x Images (Pixel Ratio of 1.25+) */
+@media only screen and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min--moz-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25),
+       only screen and (min-resolution: 1.25dppx) {
+
+  @media only screen and (min-width: 200px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_200@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 359px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_360@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 375px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_375@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 414px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_414@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 1366px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_1366@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 1536px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_1536@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 1920px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_1920@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 3840px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_3840@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 3841px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_3841@2x.jpg);
+    }
+  }
+}
+
+/* ANIMATIONS */
+
+.blink {
+  animation: blink-animation 1s step-start 0s infinite;
+  -webkit-animation: blink-animation 1s step-start 0s infinite;
+  -o-animation: blink-animation 1s step-start 0s infinite;
+  -moz-animation: blink-animation 1s step-start 0s infinite;
+}
+@keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+@-o-keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}

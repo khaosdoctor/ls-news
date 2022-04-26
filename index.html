@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="title" content="ls -news | Um newsletter por Lucas Santos">
+  <meta name="description" content="Um newsletter mensal com tudo que você precisa! Saiba tudo sobre o mundo de tecnologia através de pílulas rápidas de conteúdo para quem tem pressa!">
+  <meta name="keywords" content="newsletter,tecnologia,lucas,santos,lucas santos,news,email,landing page,desenvolvimento,software">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="author" content="Lucas Santos <hello@lsantos.dev>">
+  <link rel="canonical" href="https://news.lsantos.dev/">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#000020">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#000020">
+  <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#000020">
+
+  <meta property="og:url" content="https://news.lsantos.dev" />
+  <meta property="og:site_name" content="ls -news" />
+  <meta property="og:title" content="ls -news | Um newsletter por Lucas Santos" />
+  <meta property="og:description" content="Um newsletter mensal! Tudo sobre o mundo tech através de pílulas simples e rápidas para quem tem pressa!" />
+  <meta property="og:image" content="@url/assets/img/social/large.jpg" />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="article:publisher" content="https://www.facebook.com/lsantos.dev">
+  <meta property="og:image:alt" content="ls -news | Um newsletter por Lucas Santos" />
+  <meta property="og:image" content="@url/assets/img/social/medium.jpg" />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="314" />
+  <meta property="og:image:alt" content="ls -news | Um newsletter por Lucas Santos" />
+  <meta property="og:image" content="@url/assets/img/social/small.jpg" />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="400" />
+  <meta property="og:image:alt" content="ls -news | Um newsletter por Lucas Santos" />
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@_staticvoid"/>
+  <meta name="twitter:creator" content="@_staticvoid" />
+
+  <title>ls -news | Lucas Santos</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link rel="preconect" href="https://www.google-analytics.com">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JHD2RRPVRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JHD2RRPVRT');
+
+    function sendCustomEvent (eventName, category, label, options = {}, callback = console.log) {
+      if (callback && typeof callback === 'function') options.event_callback = callback
+      options.event_category = category
+      options.event_label = label
+      options.referrer = document.referrer
+      options.transaction_id = getSession()
+
+      gtag('event', eventName, options)
+    }
+  </script>
+</head>
+<body>
+    <section id="signup">
+      <header>
+        <div class="logo-wrapper">
+          <div class="logo">
+            <span class="symbol"></span>
+            <span class="text">ls -news</span>
+            <span class="carrier blink"></span>
+          </div>
+        </div>
+      </header>
+
+      <main></main>
+
+      <footer>
+        <span><strong>© 2022</strong>. Todos os direitos reservados</span>
+        <a href="https://blog.lsantos.dev?utm_source=newsletter-landing&utm_medium=footer-link&utm_campaign=newsletter_page" class="blog-link" target="_blank">
+          <img src="assets/img/logo.png" alt="Logo de Lucas Santos" />
+        </a>
+      </footer>
+    </section>
+
+    <script src="index.mjs" type="module"></script>
+</body>
+</html>
