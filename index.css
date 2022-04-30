@@ -130,6 +130,12 @@ main {
   box-shadow: 5px 5px 5px rgba(0, 0, 33, 0.5) inset;
 }
 
+#button-submit:disabled {
+  background-color: gray;
+  color: rgb(184, 184, 184);
+  cursor: not-allowed;
+}
+
 /* FOOTER */
 footer {
   position: absolute;

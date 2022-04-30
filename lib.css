@@ -27,3 +27,9 @@ input {
   padding: 3px 3px 0 3px;
   border-radius: 1px;
 }
+
+.green-bg {
+  background-color: var(--default-green);
+  padding: 3px 3px 0 3px;
+  border-radius: 1px;
+}
