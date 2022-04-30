@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Aller';
+  src: url(./assets/fonts/AllerDisplay.ttf);
+}
+
+/* GLOBAL RULES */
+:root {
+  --default-bg: #000021;
+  --default-green: #46bb8b;
+  --default-green-dark: hsl(155, 46%, 40%);
+  --default-blue: #197bc0;
+  --default-red: #ed1c24;
+  --default-yellow: #ffcc03;
+  --body-font: 'Ubuntu';
+  --alter-font: 'Quantico';
+  --title-font: 'Aller';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font), sans-serif;
+  color: white;
+}

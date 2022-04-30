@@ -1,0 +1,62 @@
+
+/* @2x Images (Pixel Ratio of 1.25+) */
+@media only screen and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min--moz-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25),
+       only screen and (min-resolution: 1.25dppx) {
+
+  @media only screen and (min-width: 200px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_200@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 359px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_360@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 375px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_375@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 414px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_414@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 1366px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_1366@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 1536px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_1536@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 1920px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_1920@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 3840px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_3840@2x.jpg);
+    }
+  }
+
+  @media only screen and (min-width: 3841px) {
+    #signup {
+      background-image: url(assets/img/cover_scale\,w_3841@2x.jpg);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+/* ANIMATIONS */
+
+.blink {
+  animation: blink-animation 1s step-start 0s infinite;
+  -webkit-animation: blink-animation 1s step-start 0s infinite;
+  -o-animation: blink-animation 1s step-start 0s infinite;
+  -moz-animation: blink-animation 1s step-start 0s infinite;
+}
+@keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+@-o-keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}

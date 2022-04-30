@@ -1,0 +1,29 @@
+/* RESET */
+body,
+html {
+  height: 100%;
+  background-color: var(--default-bg);
+}
+
+input {
+  color: var(--default-bg);
+}
+
+/* HELPERS */
+.link-text {
+  font-family: var(--alter-font), var(--body-font), sans-serif;
+}
+
+.title-text {
+  font-family: var(--title-font), var(--body-font), sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.blue-bg {
+  background-color: var(--default-blue);
+  padding: 3px 3px 0 3px;
+  border-radius: 1px;
+}
