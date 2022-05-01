@@ -2,7 +2,7 @@
 
 section#main {
   height: 100vh;
-  background-image: url(assets/img/cover_scale\,w_1366.jpg);
+  background-color: var(--default-bg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -164,10 +164,6 @@ a.blog-link img {
 
 /* MEDIA */
 @media only screen and (min-width: 200px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_200.jpg);
-  }
-
   .logo-wrapper > div.logo .symbol::before {
     font-size: 1.2em;
   }
@@ -201,17 +197,7 @@ a.blog-link img {
   }
 }
 
-@media only screen and (min-width: 375px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_375.jpg);
-  }
-}
-
 @media only screen and (min-width: 414px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_414.jpg);
-  }
-
   .logo-wrapper > div.logo .symbol::before {
     font-size: 2.4em;
   }
@@ -233,9 +219,6 @@ a.blog-link img {
 }
 
 @media only screen and (min-width: 1366px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_1366.jpg);
-  }
 
   .logo-wrapper {
     background-color: transparent;
@@ -288,9 +271,6 @@ a.blog-link img {
 }
 
 @media only screen and (min-width: 1536px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_1536.jpg);
-  }
   .logo-wrapper > div.logo .symbol::before {
     font-size: 3em;
   }
@@ -325,10 +305,6 @@ a.blog-link img {
 }
 
 @media only screen and (min-width: 1920px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_1920.jpg);
-  }
-
   .main-text {
     font-size: 52px;
   }
@@ -340,21 +316,5 @@ a.blog-link img {
 
   #input-submit-email {
     font-size: 26px;
-  }
-
-  .input-wrapper::after {
-    width: 38.9em;
-  }
-}
-
-@media only screen and (min-width: 3840px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_3840.jpg);
-  }
-}
-
-@media only screen and (min-width: 3841px) {
-  #signup {
-    background-image: url(assets/img/cover_scale\,w_3841.jpg);
   }
 }

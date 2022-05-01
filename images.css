@@ -1,3 +1,55 @@
+@media only screen and (min-width: 200px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_200.jpg);
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_360.jpg);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_375.jpg);
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_414.jpg);
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_1366.jpg);
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_1536.jpg);
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_1920.jpg);
+  }
+}
+@media only screen and (min-width: 3840px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_3840.jpg);
+  }
+}
+
+@media only screen and (min-width: 3841px) {
+  #main {
+    background-image: url(assets/img/cover_scale\,w_3841.jpg);
+  }
+}
 
 /* @2x Images (Pixel Ratio of 1.25+) */
 @media only screen and (-o-min-device-pixel-ratio: 5/4),
@@ -7,55 +59,55 @@
        only screen and (min-resolution: 1.25dppx) {
 
   @media only screen and (min-width: 200px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_200@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 359px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_360@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 375px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_375@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 414px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_414@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 1366px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_1366@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 1536px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_1536@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 1920px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_1920@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 3840px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_3840@2x.jpg);
     }
   }
 
   @media only screen and (min-width: 3841px) {
-    #signup {
+    #main {
       background-image: url(assets/img/cover_scale\,w_3841@2x.jpg);
     }
   }
