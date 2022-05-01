@@ -1,8 +1,10 @@
 window.onload = function () {
   document.querySelector('footer>span>strong').innerText = `© ${new Date().getFullYear()}`
+  document.querySelector('form.form').addEventListener('submit', sendMagicLink)
 }
 
 async function sendMagicLink (e) {
+  e.preventDefault()
   const emailInput = document.querySelector('#input-submit-email')
   const titleElement = document.querySelector('.main-text')
   const formElement = document.querySelector('.form')
@@ -34,5 +36,6 @@ async function sendMagicLink (e) {
       titleElement.innerHTML = 'Quase lá! Acesse o seu e-mail para confirmar sua incrição.<p class="bold green-bg">Muito obrigado por se inscrever!</p>'
       return
     }
+    return
   }
 }
